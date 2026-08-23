@@ -1,0 +1,191 @@
+[
+  {
+    "empresa":"Roche",
+    "prioridad":"A+",
+    "encaje":9.5,
+    "salario":"85-100k",
+    "estado":"Investigando",
+    "area":"Digital Technology",
+    "puerta":"Head Digital Technology Madrid"
+  },
+  {
+    "empresa":"JTI",
+    "prioridad":"A+",
+    "encaje":9,
+    "salario":"85-105k",
+    "estado":"Investigando",
+    "area":"IT Operations",
+    "puerta":"IT Director Western Europe"
+  },
+  {
+    "empresa":"IQVIA",
+    "prioridad":"A+",
+    "encaje":9,
+    "salario":"85-100k",
+    "estado":"Investigando",
+    "area":"IQVIA Digital",
+    "puerta":"Director IQVIA Digital España"
+  },
+  {
+    "empresa":"Iberdrola",
+    "prioridad":"A+",
+    "encaje":9,
+    "salario":"85-100k",
+    "estado":"Investigando",
+    "area":"Corporate ICT",
+    "puerta":"Head Corporate ICT"
+  },
+  {
+    "empresa":"Microsoft",
+    "prioridad":"A",
+    "encaje":8,
+    "salario":"85-110k",
+    "estado":"Pendiente",
+    "area":"Customer Transformation",
+    "puerta":"Head Utilities & Energy"
+  },
+  {
+    "empresa":"BBVA",
+    "prioridad":"A",
+    "encaje":8.5,
+    "salario":"85-100k",
+    "estado":"Pendiente",
+    "area":"Technology Transformation",
+    "puerta":"Head Technology Transformation"
+  },
+  {
+    "empresa":"Santander",
+    "prioridad":"A",
+    "encaje":8.5,
+    "salario":"85-100k",
+    "estado":"Pendiente",
+    "area":"IT Delivery",
+    "puerta":"Director Santander Digital Services"
+  },
+  {
+    "empresa":"Telefónica",
+    "prioridad":"A",
+    "encaje":8,
+    "salario":"80-95k",
+    "estado":"Pendiente",
+    "area":"Enterprise IT",
+    "puerta":"Head Enterprise IT"
+  },
+  {
+    "empresa":"Bayer",
+    "prioridad":"A",
+    "encaje":8,
+    "salario":"85-100k",
+    "estado":"Pendiente",
+    "area":"Digital Transformation",
+    "puerta":"Head Digital Iberia"
+  },
+  {
+    "empresa":"Google",
+    "prioridad":"A+ estratégico",
+    "encaje":7.5,
+    "salario":"90-120k",
+    "estado":"Monitorización",
+    "area":"Cloud",
+    "puerta":"Head Customer Engineering"
+  },
+  {
+    "empresa":"OpenAI",
+    "prioridad":"A+ estratégico",
+    "encaje":7.5,
+    "salario":"90-140k",
+    "estado":"Monitorización",
+    "area":"Enterprise",
+    "puerta":"Head Enterprise Iberia"
+  },
+  {
+    "empresa":"Revolut",
+    "prioridad":"A",
+    "encaje":8,
+    "salario":"80-110k",
+    "estado":"Monitorización",
+    "area":"Operations",
+    "puerta":"Head Operations Spain"
+  },
+  {
+    "empresa":"ServiceNow",
+    "prioridad":"A",
+    "encaje":8,
+    "salario":"85-110k",
+    "estado":"Pendiente",
+    "area":"Platform",
+    "puerta":"Director Iberia"
+  },
+  {
+    "empresa":"Workday",
+    "prioridad":"A",
+    "encaje":8,
+    "salario":"85-105k",
+    "estado":"Pendiente",
+    "area":"Delivery",
+    "puerta":"Director Iberia"
+  },
+  {
+    "empresa":"SAP",
+    "prioridad":"A",
+    "encaje":7.5,
+    "salario":"85-105k",
+    "estado":"Pendiente",
+    "area":"Enterprise Transformation",
+    "puerta":"Head Services"
+  },
+  {
+    "empresa":"Salesforce",
+    "prioridad":"A",
+    "encaje":7.5,
+    "salario":"85-105k",
+    "estado":"Pendiente",
+    "area":"Customer Transformation",
+    "puerta":"Regional Director"
+  },
+  {
+    "empresa":"Oracle",
+    "prioridad":"A",
+    "encaje":7.5,
+    "salario":"85-105k",
+    "estado":"Pendiente",
+    "area":"Cloud Enterprise",
+    "puerta":"Head Cloud Spain"
+  },
+  {
+    "empresa":"AWS",
+    "prioridad":"A",
+    "encaje":7.5,
+    "salario":"85-110k",
+    "estado":"Pendiente",
+    "area":"Customer Transformation",
+    "puerta":"Enterprise Lead"
+  },
+  {
+    "empresa":"Ferrovial",
+    "prioridad":"B+",
+    "encaje":8.5,
+    "salario":"90-110k",
+    "estado":"En reserva",
+    "area":"Enterprise Platforms",
+    "puerta":"Contacto personal"
+  },
+  {
+    "empresa":"Amadeus",
+    "prioridad":"B condicionado",
+    "encaje":8,
+    "salario":"80-95k",
+    "estado":"Condicionada",
+    "area":"ITSM",
+    "puerta":"No mover"
+  },
+  {
+    "empresa":"CNMV",
+    "prioridad":"Público A+",
+    "encaje":9,
+    "salario":"80-100k",
+    "estado":"Monitorización",
+    "area":"Transformación Digital",
+    "puerta":"Director TI"
+  }
+]
