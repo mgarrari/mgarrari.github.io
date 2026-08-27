@@ -1,32 +1,116 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Radar Ejecutivo IT · Sprint 10</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Radar Ejecutivo IT – Dossier v1</title>
 
 <style>
-body{margin:0;font-family:Segoe UI,Arial;background:#f5f7fa;color:#1f2937;display:flex}
-aside{width:260px;background:#111827;color:white;height:100vh;padding:20px;position:fixed;overflow:auto}
-aside a{display:block;color:#d1d5db;text-decoration:none;padding:8px 0}
-main{margin-left:260px;padding:28px;max-width:1300px;width:100%}
-.card{background:white;border-radius:14px;padding:18px;margin-bottom:18px;box-shadow:0 2px 8px rgba(0,0,0,.08)}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:15px}
-.kpi{text-align:center}.kpi b{font-size:30px;display:block}
-input{width:100%;padding:12px;border-radius:10px;border:1px solid #ccc}
-button{background:#2563eb;color:white;border:none;padding:9px 14px;border-radius:8px;cursor:pointer;margin-right:8px}
-button.secondary{background:#64748b}
-.tag{background:#dcfce7;padding:3px 8px;border-radius:999px;font-size:12px}
-.company{border-left:5px solid #2563eb;padding-left:15px}
-.hidden{display:none}
-.badge{padding:4px 8px;border-radius:999px;font-size:12px;color:white}
-.green{background:#16a34a}
-.yellow{background:#ca8a04}
-.blue{background:#2563eb}
-table{width:100%;border-collapse:collapse}
-th,td{padding:10px;border-bottom:1px solid #eee;text-align:left}
+*{box-sizing:border-box}
+body{
+margin:0;
+font-family:Segoe UI,Arial,sans-serif;
+background:#f3f5f8;
+color:#222;
+display:flex;
+}
+aside{
+width:260px;
+background:#0f172a;
+color:white;
+height:100vh;
+position:fixed;
+padding:22px;
+overflow:auto;
+}
+aside h2{
+margin-top:0;
+}
+aside a{
+display:block;
+color:#cbd5e1;
+text-decoration:none;
+padding:8px 0;
+}
+aside a:hover{
+color:white;
+}
+main{
+margin-left:260px;
+padding:30px;
+max-width:1400px;
+width:100%;
+}
+.card{
+background:white;
+border-radius:14px;
+padding:22px;
+margin-bottom:22px;
+box-shadow:0 2px 10px rgba(0,0,0,.08);
+}
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(170px,1fr));
+gap:15px;
+}
+.kpi{
+text-align:center;
+}
+.kpi h2{
+margin:0;
+font-size:32px;
+color:#0f172a;
+}
+table{
+width:100%;
+border-collapse:collapse;
+margin-top:12px;
+}
+th{
+background:#eef2ff;
+}
+th,td{
+padding:10px;
+border-bottom:1px solid #ddd;
+text-align:left;
+}
+.badge{
+display:inline-block;
+padding:4px 9px;
+border-radius:999px;
+font-size:12px;
+font-weight:bold;
+}
+.green{background:#dcfce7;color:#166534;}
+.yellow{background:#fef3c7;color:#854d0e;}
+.blue{background:#dbeafe;color:#1d4ed8;}
+.red{background:#fee2e2;color:#991b1b;}
+.score{
+font-size:20px;
+font-weight:bold;
+}
+.summary{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:10px;
+margin-top:15px;
+}
+.summary div{
+background:#f8fafc;
+padding:12px;
+border-radius:8px;
+}
+@media(max-width:900px){
+aside{
+display:none;
+}
+main{
+margin-left:0;
+padding:18px;
+}
+}
 </style>
+
 </head>
 
 <body>
@@ -36,15 +120,19 @@ th,td{padding:10px;border-bottom:1px solid #eee;text-align:left}
 <h2>🎯 Radar IT</h2>
 
 <a href="#dashboard">Dashboard</a>
-<a href="#ranking">Top 10</a>
-<a href="#crm">CRM</a>
+<a href="#jti">JTI</a>
+<a href="#bbva">BBVA</a>
+<a href="#iberdrola">Iberdrola</a>
+<a href="#iqvia">IQVIA</a>
 <a href="#historial">Historial</a>
 
 <hr>
 
 <b>Prioridad inmediata</b>
 
-<p>JTI · IQVIA · BBVA</p>
+<p>1. JTI</p>
+<p>2. BBVA</p>
+<p>3. IQVIA</p>
 
 </aside>
 
@@ -52,74 +140,362 @@ th,td{padding:10px;border-bottom:1px solid #eee;text-align:left}
 
 <section id="dashboard">
 
-<h1>Radar Ejecutivo IT · Sprint 10</h1>
+<div class="card">
+
+<h1>Radar Ejecutivo IT – Dossier v1</h1>
+
+<p>Objetivo: construir una base de inteligencia para acceder al mercado oculto de posiciones de 80-100k (ServiceNow, ITSM, Product Owner, Platform Manager, Head of IT).</p>
 
 <div class="grid">
 
-<div class="card kpi"><b>100</b>Objetivo final</div>
-<div class="card kpi"><b>21</b>Empresas cargadas</div>
-<div class="card kpi"><b>10</b>Top empresas</div>
-<div class="card kpi"><b>3</b>Acciones</div>
+<div class="card kpi">
+<h2>100</h2>
+Empresas objetivo
+</div>
+
+<div class="card kpi">
+<h2>4</h2>
+Empresas investigadas
+</div>
+
+<div class="card kpi">
+<h2>9/10</h2>
+Mejor oportunidad
+</div>
+
+<div class="card kpi">
+<h2>85-105k</h2>
+Rango objetivo
+</div>
+
+</div>
 
 </div>
 
 <div class="card">
 
-<h3>Cambios Sprint 10</h3>
-
-<ul>
-<li>Top 10 completo.</li>
-<li>Historial integrado.</li>
-<li>Semáforo de acción.</li>
-<li>Filtros rápidos.</li>
-</ul>
-
-</div>
-
-</section>
-
-<section id="ranking">
-
-<div class="card">
-
-<h2>Top 10 empresas</h2>
-
-<input id="buscar" placeholder="Buscar empresa..." oninput="filtrar()">
-
-<p style="margin-top:15px">
-<button onclick="render(empresas)">Todas</button>
-<button onclick="filtro('Acción')">Acción</button>
-<button onclick="filtro('Preparación')">Preparación</button>
-<button onclick="filtro('Radar')">Radar</button>
-</p>
-
-<div id="lista"></div>
-
-</div>
-
-</section>
-
-<section id="crm">
-
-<div class="card">
-
-<h2>CRM</h2>
+<h2>Ranking actual</h2>
 
 <table>
 
 <tr>
 <th>Empresa</th>
+<th>Accionabilidad</th>
 <th>Estado</th>
-<th>Siguiente desbloqueo</th>
+<th>Próximo movimiento</th>
 </tr>
 
-<tr><td>JTI</td><td>🟢 Acción</td><td>Responsable IT Operations Madrid</td></tr>
-<tr><td>IQVIA</td><td>🟢 Acción</td><td>Director IQVIA Digital España</td></tr>
-<tr><td>BBVA</td><td>🟡 Preparación</td><td>Head Technology Transformation</td></tr>
-<tr><td>Iberdrola</td><td>🟡 Preparación</td><td>Corporate ICT Madrid</td></tr>
-<tr><td>Roche</td><td>🔵 Radar</td><td>Manager Enterprise Platforms</td></tr>
+<tr>
+<td>JTI</td>
+<td>9/10</td>
+<td><span class="badge green">Acción</span></td>
+<td>Encontrar Manager Enterprise Platforms</td>
+</tr>
+
+<tr>
+<td>BBVA</td>
+<td>7/10</td>
+<td><span class="badge yellow">Preparación</span></td>
+<td>Engineering Managers Madrid</td>
+</tr>
+
+<tr>
+<td>IQVIA</td>
+<td>7/10</td>
+<td><span class="badge yellow">Investigación</span></td>
+<td>Managers Digital Delivery</td>
+</tr>
+
+<tr>
+<td>Iberdrola</td>
+<td>5/10</td>
+<td><span class="badge blue">Radar</span></td>
+<td>Corporate ICT Madrid</td>
+</tr>
 
 </table>
+
+</div>
+
+</section>
+
+<section id="jti">
+
+<div class="card">
+
+<h2>JTI Iberia (Madrid)</h2>
+
+<p class="score">Accionabilidad: 9/10</p>
+
+<p>Madrid es el mayor hub tecnológico de JTI, con más de 200 ingenieros y responsabilidad internacional.</p>
+
+<div class="summary">
+
+<div>
+<b>Encaje</b><br>
+Muy alto
+</div>
+
+<div>
+<b>Salario</b><br>
+85-105k
+</div>
+
+<div>
+<b>Estabilidad</b><br>
+Alta
+</div>
+
+<div>
+<b>Riesgo vs Repsol</b><br>
+Bajo
+</div>
+
+</div>
+
+<h3>Contactos verificados</h3>
+
+<table>
+
+<tr>
+<th>Persona</th>
+<th>Cargo</th>
+<th>Rol</th>
+</tr>
+
+<tr>
+<td>Fátima Ramírez</td>
+<td>D&IT Director Iberia</td>
+<td>Decision Maker</td>
+</tr>
+
+<tr>
+<td>Paulo Seabra</td>
+<td>Regional D&IT Western Europe</td>
+<td>Sponsor regional</td>
+</tr>
+
+<tr>
+<td>María José Fernández</td>
+<td>Talent Acquisition Iberia</td>
+<td>Gatekeeper</td>
+</tr>
+
+</table>
+
+<h3>Lo importante</h3>
+
+<ul>
+
+<li>El hub de Madrid tiene peso global.</li>
+<li>La organización promueve mucho internamente.</li>
+<li>El objetivo no es escribir a Fátima directamente.</li>
+
+</ul>
+
+<h3>Próximo desbloqueo</h3>
+
+Encontrar el responsable de Enterprise Platforms o Business Technology que dependa de Fátima.
+
+</div>
+
+</section>
+
+<section id="bbva">
+
+<div class="card">
+
+<h2>BBVA Technology</h2>
+
+<p class="score">Accionabilidad: 7/10</p>
+
+<p>La organización tecnológica ha crecido tras integrar sociedades tecnológicas y reforzar Engineering.</p>
+
+<div class="summary">
+
+<div>
+<b>Encaje</b><br>
+Muy alto
+</div>
+
+<div>
+<b>Salario</b><br>
+85-100k
+</div>
+
+<div>
+<b>Estabilidad</b><br>
+Alta
+</div>
+
+<div>
+<b>Riesgo vs Repsol</b><br>
+Bajo
+</div>
+
+</div>
+
+<h3>Contactos verificados</h3>
+
+<table>
+
+<tr>
+<th>Persona</th>
+<th>Cargo</th>
+<th>Rol</th>
+</tr>
+
+<tr>
+<td>Ricardo Forcano</td>
+<td>Global Head of Engineering & Organization</td>
+<td>Decision Maker</td>
+</tr>
+
+<tr>
+<td>Ricardo Jurado</td>
+<td>Ex CEO BBVA Technology</td>
+<td>Referencia histórica</td>
+</tr>
+
+</table>
+
+<h3>Hipótesis de entrada</h3>
+
+Los Engineering Managers y Platform Leads son bastante más interesantes que RRHH para un perfil como el tuyo.
+
+</div>
+
+</section>
+
+<section id="iberdrola">
+
+<div class="card">
+
+<h2>Iberdrola</h2>
+
+<p class="score">Accionabilidad: 5/10</p>
+
+<div class="summary">
+
+<div>
+<b>Encaje</b><br>
+Alto
+</div>
+
+<div>
+<b>Sector</b><br>
+Utilities
+</div>
+
+<div>
+<b>Ventaja</b><br>
+Experiencia Repsol
+</div>
+
+<div>
+<b>Estado</b><br>
+Radar
+</div>
+
+</div>
+
+<h3>Contactos verificados</h3>
+
+<table>
+
+<tr>
+<th>Persona</th>
+<th>Cargo</th>
+<th>Rol</th>
+</tr>
+
+<tr>
+<td>Mario Ruiz-Tagle</td>
+<td>CEO Iberdrola España</td>
+<td>Referencia</td>
+</tr>
+
+<tr>
+<td>Borja Sánchez</td>
+<td>Global CIO</td>
+<td>Decision Maker IT</td>
+</tr>
+
+<tr>
+<td>Nuria Rodríguez</td>
+<td>Global Digital Transformation</td>
+<td>Influencia</td>
+</tr>
+
+</table>
+
+<h3>Lo que falta</h3>
+
+Reconstruir el nivel de Corporate ICT Madrid.
+
+</div>
+
+</section>
+
+<section id="iqvia">
+
+<div class="card">
+
+<h2>IQVIA España</h2>
+
+<p class="score">Accionabilidad: 7/10</p>
+
+<div class="summary">
+
+<div>
+<b>Encaje</b><br>
+Alto
+</div>
+
+<div>
+<b>Salario</b><br>
+85-100k
+</div>
+
+<div>
+<b>Área</b><br>
+Digital Delivery
+</div>
+
+<div>
+<b>Estado</b><br>
+Investigación
+</div>
+
+</div>
+
+<h3>Contactos verificados</h3>
+
+<table>
+
+<tr>
+<th>Persona</th>
+<th>Cargo</th>
+<th>Rol</th>
+</tr>
+
+<tr>
+<td>Adolfo Hernández</td>
+<td>Country Manager Spain</td>
+<td>Decision Maker</td>
+</tr>
+
+<tr>
+<td>Javier Barrios</td>
+<td>Technology Director Spain</td>
+<td>Muy relevante</td>
+</tr>
+
+</table>
+
+<h3>Lo que falta</h3>
+
+Identificar los managers de Digital Delivery Madrid.
 
 </div>
 
@@ -129,23 +505,39 @@ th,td{padding:10px;border-bottom:1px solid #eee;text-align:left}
 
 <div class="card">
 
-<h2>Historial acumulado</h2>
+<h2>Historial acumulado contigo</h2>
 
 <table>
 
-<tr><th>Empresa</th><th>Situación</th></tr>
+<tr>
+<th>Empresa</th>
+<th>Situación</th>
+</tr>
 
-<tr><td>Microsoft</td><td>Proceso anterior Utilities. Posteriormente varios intentos sin respuesta.</td></tr>
+<tr>
+<td>Microsoft</td>
+<td>Proceso previo Utilities. Varios intentos posteriores sin respuesta.</td>
+</tr>
 
-<tr><td>BASF</td><td>Contacto antiguo sin continuidad.</td></tr>
+<tr>
+<td>Amadeus</td>
+<td>Relaciones con Repsol. Esperar oportunidad fuerte.</td>
+</tr>
 
-<tr><td>Roche</td><td>Proceso previo. Mantener en radar.</td></tr>
+<tr>
+<td>Airbus</td>
+<td>Descartada.</td>
+</tr>
 
-<tr><td>Amadeus</td><td>No mover salvo motivo fuerte (relaciones con Repsol).</td></tr>
+<tr>
+<td>Julius Baer</td>
+<td>Descartada.</td>
+</tr>
 
-<tr><td>Airbus</td><td>Descartada.</td></tr>
-
-<tr><td>Julius Baer</td><td>Descartada.</td></tr>
+<tr>
+<td>BASF</td>
+<td>Contacto antiguo.</td>
+</tr>
 
 </table>
 
@@ -153,183 +545,25 @@ th,td{padding:10px;border-bottom:1px solid #eee;text-align:left}
 
 </section>
 
-</main>
+<div class="card">
 
-<script>
+<h2>Próximos objetivos</h2>
 
-const empresas=[
+<ol>
 
-{
-empresa:"JTI",
-score:94,
-estado:"Acción",
-accionabilidad:9,
-salario:"85-105k",
-decision:"Fátima Ramírez (Directora IT Iberia)",
-motivo:"Hub IT Madrid estable."
-},
+<li>Completar JTI con 10 managers reales.</li>
 
-{
-empresa:"IQVIA",
-score:92,
-estado:"Acción",
-accionabilidad:7,
-salario:"85-100k",
-decision:"Pendiente verificar Director IQVIA Digital España",
-motivo:"Digital sigue creciendo."
-},
+<li>Completar BBVA Engineering Madrid.</li>
 
-{
-empresa:"Iberdrola",
-score:90,
-estado:"Preparación",
-accionabilidad:5,
-salario:"85-100k",
-decision:"Corporate ICT",
-motivo:"Transformación continua."
-},
+<li>Cruzar ex-Repsol en JTI, BBVA e Iberdrola.</li>
 
-{
-empresa:"BBVA",
-score:87,
-estado:"Preparación",
-accionabilidad:7,
-salario:"85-100k",
-decision:"Ricardo Jurado (Global Head Engineering)",
-motivo:"Engineering Platforms."
-},
+<li>Identificar managers de Digital Delivery IQVIA.</li>
 
-{
-empresa:"Roche",
-score:96,
-estado:"Radar",
-accionabilidad:3,
-salario:"85-100k",
-decision:"Pendiente verificar",
-motivo:"Gran empresa; falta puerta."
-},
-
-{
-empresa:"Microsoft",
-score:84,
-estado:"Radar",
-accionabilidad:3,
-salario:"85-110k",
-decision:"Utilities",
-motivo:"Esperar reapertura."
-},
-
-{
-empresa:"Revolut",
-score:81,
-estado:"Radar",
-accionabilidad:3,
-salario:"80-110k",
-decision:"Head Operations",
-motivo:"Crecimiento."
-},
-
-{
-empresa:"Google",
-score:80,
-estado:"Radar",
-accionabilidad:2,
-salario:"90-120k",
-decision:"Cloud",
-motivo:"Estratégico."
-},
-
-{
-empresa:"OpenAI",
-score:79,
-estado:"Radar",
-accionabilidad:2,
-salario:"90-140k",
-decision:"Enterprise Iberia",
-motivo:"Estratégico."
-},
-
-{
-empresa:"ServiceNow",
-score:78,
-estado:"Radar",
-accionabilidad:2,
-salario:"90-120k",
-decision:"Director Iberia",
-motivo:"Encaje alto."
-}
-
-];
-
-function badge(estado){
-
-if(estado==="Acción") return "green";
-
-if(estado==="Preparación") return "yellow";
-
-return "blue";
-
-}
-
-function render(lista){
-
-const c=document.getElementById("lista");
-
-c.innerHTML="";
-
-lista.forEach(e=>{
-
-c.innerHTML+=`
-
-<div class="card company">
-
-<h3>${e.empresa}
-
-<span class="tag">${e.score}</span>
-
-<span class="badge ${badge(e.estado)}">${e.estado}</span>
-
-</h3>
-
-<p><b>Accionabilidad:</b> ${e.accionabilidad}/10</p>
-
-<p><b>Salario:</b> ${e.salario}</p>
-
-<button onclick="this.nextElementSibling.classList.toggle('hidden')">Ver ficha</button>
-
-<div class="hidden">
-
-<hr>
-
-<p><b>Decision Maker:</b> ${e.decision}</p>
-
-<p><b>Motivo:</b> ${e.motivo}</p>
+</ol>
 
 </div>
 
-</div>`;
-
-});
-
-}
-
-function filtrar(){
-
-const q=document.getElementById("buscar").value.toLowerCase();
-
-render(empresas.filter(e=>JSON.stringify(e).toLowerCase().includes(q)));
-
-}
-
-function filtro(estado){
-
-render(empresas.filter(e=>e.estado===estado));
-
-}
-
-render(empresas);
-
-</script>
+</main>
 
 </body>
 
