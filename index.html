@@ -3,214 +3,99 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Radar Ejecutivo IT – Dossier v1</title>
+<title>Radar Ejecutivo IT</title>
 
 <style>
-*{box-sizing:border-box}
-body{
-margin:0;
-font-family:Segoe UI,Arial,sans-serif;
-background:#f3f5f8;
-color:#222;
-display:flex;
-}
-aside{
-width:260px;
-background:#0f172a;
-color:white;
-height:100vh;
-position:fixed;
-padding:22px;
-overflow:auto;
-}
-aside h2{
-margin-top:0;
-}
-aside a{
-display:block;
-color:#cbd5e1;
-text-decoration:none;
-padding:8px 0;
-}
-aside a:hover{
-color:white;
-}
-main{
-margin-left:260px;
-padding:30px;
-max-width:1400px;
-width:100%;
-}
-.card{
-background:white;
-border-radius:14px;
-padding:22px;
-margin-bottom:22px;
-box-shadow:0 2px 10px rgba(0,0,0,.08);
-}
-.grid{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(170px,1fr));
-gap:15px;
-}
-.kpi{
-text-align:center;
-}
-.kpi h2{
-margin:0;
-font-size:32px;
-color:#0f172a;
-}
-table{
-width:100%;
-border-collapse:collapse;
-margin-top:12px;
-}
-th{
-background:#eef2ff;
-}
-th,td{
-padding:10px;
-border-bottom:1px solid #ddd;
-text-align:left;
-}
-.badge{
-display:inline-block;
-padding:4px 9px;
-border-radius:999px;
-font-size:12px;
-font-weight:bold;
-}
-.green{background:#dcfce7;color:#166534;}
-.yellow{background:#fef3c7;color:#854d0e;}
-.blue{background:#dbeafe;color:#1d4ed8;}
-.red{background:#fee2e2;color:#991b1b;}
-.score{
-font-size:20px;
-font-weight:bold;
-}
-.summary{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-gap:10px;
-margin-top:15px;
-}
-.summary div{
-background:#f8fafc;
-padding:12px;
-border-radius:8px;
-}
-@media(max-width:900px){
-aside{
-display:none;
-}
-main{
-margin-left:0;
-padding:18px;
-}
-}
+body{margin:0;font-family:Segoe UI,Arial,sans-serif;background:#f5f7fa;color:#1f2937}
+header{background:#0f172a;color:white;padding:24px}
+nav{background:#1e293b;padding:12px;position:sticky;top:0}
+nav a{color:white;text-decoration:none;margin-right:18px}
+main{max-width:1200px;margin:auto;padding:24px}
+.card{background:white;border-radius:12px;padding:20px;margin-bottom:22px;box-shadow:0 2px 8px rgba(0,0,0,.08)}
+table{width:100%;border-collapse:collapse}
+th,td{padding:10px;border-bottom:1px solid #ddd;text-align:left}
+th{background:#eef2ff}
+.badge{display:inline-block;padding:4px 8px;border-radius:999px;font-size:12px}
+.green{background:#dcfce7}
+.yellow{background:#fef3c7}
+.blue{background:#dbeafe}
+.done{color:#15803d;font-weight:bold}
+.wait{color:#ca8a04;font-weight:bold}
+.todo{color:#2563eb;font-weight:bold}
 </style>
 
 </head>
-
 <body>
 
-<aside>
+<header>
 
-<h2>🎯 Radar IT</h2>
+<h1>Radar Ejecutivo IT</h1>
 
-<a href="#dashboard">Dashboard</a>
+<p>Versión única · Objetivo: acceder al mercado oculto (80-100k)</p>
+
+</header>
+
+<nav>
+
+<a href="#resumen">Resumen</a>
 <a href="#jti">JTI</a>
 <a href="#bbva">BBVA</a>
 <a href="#iberdrola">Iberdrola</a>
 <a href="#iqvia">IQVIA</a>
-<a href="#historial">Historial</a>
+<a href="#roche">Roche</a>
 
-<hr>
-
-<b>Prioridad inmediata</b>
-
-<p>1. JTI</p>
-<p>2. BBVA</p>
-<p>3. IQVIA</p>
-
-</aside>
+</nav>
 
 <main>
 
-<section id="dashboard">
+<section id="resumen">
 
 <div class="card">
 
-<h1>Radar Ejecutivo IT – Dossier v1</h1>
-
-<p>Objetivo: construir una base de inteligencia para acceder al mercado oculto de posiciones de 80-100k (ServiceNow, ITSM, Product Owner, Platform Manager, Head of IT).</p>
-
-<div class="grid">
-
-<div class="card kpi">
-<h2>100</h2>
-Empresas objetivo
-</div>
-
-<div class="card kpi">
-<h2>4</h2>
-Empresas investigadas
-</div>
-
-<div class="card kpi">
-<h2>9/10</h2>
-Mejor oportunidad
-</div>
-
-<div class="card kpi">
-<h2>85-105k</h2>
-Rango objetivo
-</div>
-
-</div>
-
-</div>
-
-<div class="card">
-
-<h2>Ranking actual</h2>
+<h2>Prioridades actuales</h2>
 
 <table>
 
 <tr>
 <th>Empresa</th>
+<th>Encaje</th>
 <th>Accionabilidad</th>
-<th>Estado</th>
-<th>Próximo movimiento</th>
+<th>Siguiente acción</th>
 </tr>
 
 <tr>
 <td>JTI</td>
+<td>10/10</td>
 <td>9/10</td>
-<td><span class="badge green">Acción</span></td>
-<td>Encontrar Manager Enterprise Platforms</td>
+<td>Esperar respuesta de Fátima y buscar Head Enterprise Platforms</td>
 </tr>
 
 <tr>
 <td>BBVA</td>
-<td>7/10</td>
-<td><span class="badge yellow">Preparación</span></td>
-<td>Engineering Managers Madrid</td>
+<td>9/10</td>
+<td>8/10</td>
+<td>Contactar Jaime Martín Sánchez</td>
 </tr>
 
 <tr>
 <td>IQVIA</td>
+<td>8/10</td>
 <td>7/10</td>
-<td><span class="badge yellow">Investigación</span></td>
-<td>Managers Digital Delivery</td>
+<td>Contactar Javier Barrios</td>
 </tr>
 
 <tr>
 <td>Iberdrola</td>
-<td>5/10</td>
-<td><span class="badge blue">Radar</span></td>
-<td>Corporate ICT Madrid</td>
+<td>9/10</td>
+<td>6/10</td>
+<td>Contactar Borja Sánchez</td>
+</tr>
+
+<tr>
+<td>Roche</td>
+<td>10/10</td>
+<td>3/10</td>
+<td>Esperar puerta visible</td>
 </tr>
 
 </table>
@@ -225,77 +110,45 @@ Rango objetivo
 
 <h2>JTI Iberia (Madrid)</h2>
 
-<p class="score">Accionabilidad: 9/10</p>
+<p><strong>Encaje:</strong> 10/10 · <strong>Accionabilidad:</strong> 9/10</p>
 
-<p>Madrid es el mayor hub tecnológico de JTI, con más de 200 ingenieros y responsabilidad internacional.</p>
+<p>Madrid es el mayor hub tecnológico de JTI (+200 ingenieros).</p>
 
-<div class="summary">
-
-<div>
-<b>Encaje</b><br>
-Muy alto
-</div>
-
-<div>
-<b>Salario</b><br>
-85-105k
-</div>
-
-<div>
-<b>Estabilidad</b><br>
-Alta
-</div>
-
-<div>
-<b>Riesgo vs Repsol</b><br>
-Bajo
-</div>
-
-</div>
-
-<h3>Contactos verificados</h3>
+<h3>Personas verificadas</h3>
 
 <table>
 
 <tr>
 <th>Persona</th>
 <th>Cargo</th>
-<th>Rol</th>
+<th>Estado</th>
 </tr>
 
 <tr>
 <td>Fátima Ramírez</td>
 <td>D&IT Director Iberia</td>
-<td>Decision Maker</td>
+<td class="wait">Invitación enviada · Sin respuesta</td>
 </tr>
 
 <tr>
-<td>Paulo Seabra</td>
-<td>Regional D&IT Western Europe</td>
-<td>Sponsor regional</td>
-</tr>
-
-<tr>
-<td>María José Fernández</td>
-<td>Talent Acquisition Iberia</td>
-<td>Gatekeeper</td>
+<td>Claudio Ferreira</td>
+<td>Director General Iberia</td>
+<td class="todo">Pendiente</td>
 </tr>
 
 </table>
 
-<h3>Lo importante</h3>
+<h3>Acciones</h3>
 
 <ul>
 
-<li>El hub de Madrid tiene peso global.</li>
-<li>La organización promueve mucho internamente.</li>
-<li>El objetivo no es escribir a Fátima directamente.</li>
+<li class="done">Invitación enviada a Fátima.</li>
+<li class="todo">Esperar 3-4 semanas antes de cualquier movimiento.</li>
+<li class="todo">Identificar Head Enterprise Platforms.</li>
+<li class="todo">Identificar Head Business Technology.</li>
+<li class="todo">Identificar Head IT Operations.</li>
 
 </ul>
-
-<h3>Próximo desbloqueo</h3>
-
-Encontrar el responsable de Enterprise Platforms o Business Technology que dependa de Fátima.
 
 </div>
 
@@ -307,61 +160,49 @@ Encontrar el responsable de Enterprise Platforms o Business Technology que depen
 
 <h2>BBVA Technology</h2>
 
-<p class="score">Accionabilidad: 7/10</p>
+<p><strong>Encaje:</strong> 9/10 · <strong>Accionabilidad:</strong> 8/10</p>
 
-<p>La organización tecnológica ha crecido tras integrar sociedades tecnológicas y reforzar Engineering.</p>
+<p>Engineering sigue creciendo tras reforzar capacidad interna.</p>
 
-<div class="summary">
-
-<div>
-<b>Encaje</b><br>
-Muy alto
-</div>
-
-<div>
-<b>Salario</b><br>
-85-100k
-</div>
-
-<div>
-<b>Estabilidad</b><br>
-Alta
-</div>
-
-<div>
-<b>Riesgo vs Repsol</b><br>
-Bajo
-</div>
-
-</div>
-
-<h3>Contactos verificados</h3>
+<h3>Personas verificadas</h3>
 
 <table>
 
 <tr>
 <th>Persona</th>
 <th>Cargo</th>
-<th>Rol</th>
+<th>Estado</th>
 </tr>
 
 <tr>
 <td>Ricardo Forcano</td>
 <td>Global Head of Engineering & Organization</td>
-<td>Decision Maker</td>
+<td class="todo">Pendiente</td>
 </tr>
 
 <tr>
-<td>Ricardo Jurado</td>
-<td>Ex CEO BBVA Technology</td>
-<td>Referencia histórica</td>
+<td>Jaime Martín Sánchez</td>
+<td>Head of Engineering (CIB)</td>
+<td class="todo">Prioridad alta</td>
+</tr>
+
+<tr>
+<td>Javier Rodríguez Soler</td>
+<td>Global Head CIB</td>
+<td class="todo">Opcional</td>
 </tr>
 
 </table>
 
-<h3>Hipótesis de entrada</h3>
+<h3>Acciones</h3>
 
-Los Engineering Managers y Platform Leads son bastante más interesantes que RRHH para un perfil como el tuyo.
+<ul>
+
+<li class="todo">Conectar con Jaime.</li>
+<li class="todo">Conectar con Ricardo.</li>
+<li class="todo">Localizar responsables de Engineering Platforms Madrid.</li>
+
+</ul>
 
 </div>
 
@@ -373,40 +214,28 @@ Los Engineering Managers y Platform Leads son bastante más interesantes que RRH
 
 <h2>Iberdrola</h2>
 
-<p class="score">Accionabilidad: 5/10</p>
+<p><strong>Encaje:</strong> 9/10 · <strong>Accionabilidad:</strong> 6/10</p>
 
-<div class="summary">
-
-<div>
-<b>Encaje</b><br>
-Alto
-</div>
-
-<div>
-<b>Sector</b><br>
-Utilities
-</div>
-
-<div>
-<b>Ventaja</b><br>
-Experiencia Repsol
-</div>
-
-<div>
-<b>Estado</b><br>
-Radar
-</div>
-
-</div>
-
-<h3>Contactos verificados</h3>
+<h3>Personas verificadas</h3>
 
 <table>
 
 <tr>
 <th>Persona</th>
 <th>Cargo</th>
-<th>Rol</th>
+<th>Estado</th>
+</tr>
+
+<tr>
+<td>Borja Sánchez</td>
+<td>Global CIO</td>
+<td class="todo">Pendiente</td>
+</tr>
+
+<tr>
+<td>Nuria Rodríguez</td>
+<td>Digital Transformation</td>
+<td class="todo">Pendiente</td>
 </tr>
 
 <tr>
@@ -415,23 +244,17 @@ Radar
 <td>Referencia</td>
 </tr>
 
-<tr>
-<td>Borja Sánchez</td>
-<td>Global CIO</td>
-<td>Decision Maker IT</td>
-</tr>
-
-<tr>
-<td>Nuria Rodríguez</td>
-<td>Global Digital Transformation</td>
-<td>Influencia</td>
-</tr>
-
 </table>
 
-<h3>Lo que falta</h3>
+<h3>Acciones</h3>
 
-Reconstruir el nivel de Corporate ICT Madrid.
+<ul>
+
+<li class="todo">Conectar con Borja.</li>
+<li class="todo">Conectar con Nuria.</li>
+<li class="todo">Identificar Director Corporate ICT Madrid.</li>
+
+</ul>
 
 </div>
 
@@ -443,103 +266,64 @@ Reconstruir el nivel de Corporate ICT Madrid.
 
 <h2>IQVIA España</h2>
 
-<p class="score">Accionabilidad: 7/10</p>
+<p><strong>Encaje:</strong> 8/10 · <strong>Accionabilidad:</strong> 7/10</p>
 
-<div class="summary">
-
-<div>
-<b>Encaje</b><br>
-Alto
-</div>
-
-<div>
-<b>Salario</b><br>
-85-100k
-</div>
-
-<div>
-<b>Área</b><br>
-Digital Delivery
-</div>
-
-<div>
-<b>Estado</b><br>
-Investigación
-</div>
-
-</div>
-
-<h3>Contactos verificados</h3>
+<h3>Personas verificadas</h3>
 
 <table>
 
 <tr>
 <th>Persona</th>
 <th>Cargo</th>
-<th>Rol</th>
-</tr>
-
-<tr>
-<td>Adolfo Hernández</td>
-<td>Country Manager Spain</td>
-<td>Decision Maker</td>
+<th>Estado</th>
 </tr>
 
 <tr>
 <td>Javier Barrios</td>
 <td>Technology Director Spain</td>
-<td>Muy relevante</td>
+<td class="todo">Prioridad alta</td>
+</tr>
+
+<tr>
+<td>Adolfo Hernández</td>
+<td>Country Manager Spain</td>
+<td class="todo">Pendiente</td>
 </tr>
 
 </table>
 
-<h3>Lo que falta</h3>
+<h3>Acciones</h3>
 
-Identificar los managers de Digital Delivery Madrid.
+<ul>
+
+<li class="todo">Conectar con Javier.</li>
+<li class="todo">Identificar Head Digital Delivery Madrid.</li>
+
+</ul>
 
 </div>
 
 </section>
 
-<section id="historial">
+<section id="roche">
 
 <div class="card">
 
-<h2>Historial acumulado contigo</h2>
+<h2>Roche</h2>
 
-<table>
+<p><strong>Encaje:</strong> 10/10 · <strong>Accionabilidad:</strong> 3/10</p>
 
-<tr>
-<th>Empresa</th>
-<th>Situación</th>
-</tr>
+<h3>Estado</h3>
 
-<tr>
-<td>Microsoft</td>
-<td>Proceso previo Utilities. Varios intentos posteriores sin respuesta.</td>
-</tr>
+<p>No hemos identificado aún un Head/Director público del segundo nivel en Madrid.</p>
 
-<tr>
-<td>Amadeus</td>
-<td>Relaciones con Repsol. Esperar oportunidad fuerte.</td>
-</tr>
+<h3>Acción</h3>
 
-<tr>
-<td>Airbus</td>
-<td>Descartada.</td>
-</tr>
+<ul>
 
-<tr>
-<td>Julius Baer</td>
-<td>Descartada.</td>
-</tr>
+<li class="todo">Mantener en radar.</li>
 
-<tr>
-<td>BASF</td>
-<td>Contacto antiguo.</td>
-</tr>
-
-</table>
+</ul>
 
 </div>
 
@@ -547,24 +331,37 @@ Identificar los managers de Digital Delivery Madrid.
 
 <div class="card">
 
-<h2>Próximos objetivos</h2>
+<h2>Empresas descartadas</h2>
 
-<ol>
+<ul>
 
-<li>Completar JTI con 10 managers reales.</li>
+<li>Airbus</li>
+<li>Julius Baer</li>
+<li>Bayer</li>
+<li>ServiceNow</li>
 
-<li>Completar BBVA Engineering Madrid.</li>
+</ul>
 
-<li>Cruzar ex-Repsol en JTI, BBVA e Iberdrola.</li>
+</div>
 
-<li>Identificar managers de Digital Delivery IQVIA.</li>
+<div class="card">
 
-</ol>
+<h2>Empresas condicionadas</h2>
+
+<ul>
+
+<li>Amadeus (cuidado por relaciones con Repsol).</li>
+<li>Microsoft (interesa, sin puerta ahora).</li>
+<li>Google.</li>
+<li>OpenAI.</li>
+<li>Anthropic.</li>
+<li>Revolut.</li>
+
+</ul>
 
 </div>
 
 </main>
 
 </body>
-
 </html>
