@@ -3,361 +3,312 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Radar Ejecutivo IT</title>
+<title>Radar Ejecutivo IT v4</title>
 
 <style>
-body{margin:0;font-family:Segoe UI,Arial,sans-serif;background:#f5f7fa;color:#1f2937}
-header{background:#0f172a;color:white;padding:24px}
-nav{background:#1e293b;padding:12px;position:sticky;top:0}
-nav a{color:white;text-decoration:none;margin-right:18px}
-main{max-width:1200px;margin:auto;padding:24px}
-.card{background:white;border-radius:12px;padding:20px;margin-bottom:22px;box-shadow:0 2px 8px rgba(0,0,0,.08)}
+body{font-family:Segoe UI,Arial,sans-serif;background:#f4f6f9;margin:0;color:#222}
+header{background:#0f172a;color:white;padding:22px}
+nav{background:#1e293b;padding:10px;position:sticky;top:0}
+nav a{color:white;margin-right:15px;text-decoration:none}
+main{max-width:1200px;margin:auto;padding:20px}
+.card{background:white;border-radius:12px;padding:20px;margin-bottom:20px;box-shadow:0 2px 8px rgba(0,0,0,.08)}
 table{width:100%;border-collapse:collapse}
 th,td{padding:10px;border-bottom:1px solid #ddd;text-align:left}
-th{background:#eef2ff}
-.badge{display:inline-block;padding:4px 8px;border-radius:999px;font-size:12px}
-.green{background:#dcfce7}
-.yellow{background:#fef3c7}
-.blue{background:#dbeafe}
-.done{color:#15803d;font-weight:bold}
-.wait{color:#ca8a04;font-weight:bold}
-.todo{color:#2563eb;font-weight:bold}
+.score{font-weight:bold}
+.green{color:#0a7a3d}
+.yellow{color:#b7791f}
+.red{color:#b91c1c}
+.badge{padding:4px 8px;border-radius:6px;font-size:.8em}
+.badge.green{background:#d1fae5;color:#065f46}
+.badge.yellow{background:#fef3c7;color:#92400e}
+.action{background:#eff6ff;border-left:4px solid #2563eb;padding:12px;margin-top:10px}
 </style>
-
 </head>
+
 <body>
 
 <header>
-
 <h1>Radar Ejecutivo IT</h1>
-
-<p>Versión única · Objetivo: acceder al mercado oculto (80-100k)</p>
-
+<p>Objetivo: puesto Head / Director / Platform Manager (80-100k)</p>
 </header>
 
 <nav>
-
-<a href="#resumen">Resumen</a>
+<a href="#radar">Radar</a>
+<a href="#roche">Roche</a>
 <a href="#jti">JTI</a>
+<a href="#endesa">Endesa</a>
+<a href="#microsoft">Microsoft</a>
 <a href="#bbva">BBVA</a>
 <a href="#iberdrola">Iberdrola</a>
 <a href="#iqvia">IQVIA</a>
-<a href="#roche">Roche</a>
-
+<a href="#google">Google</a>
 </nav>
 
 <main>
 
-<section id="resumen">
-
-<div class="card">
-
-<h2>Prioridades actuales</h2>
+<div class="card" id="radar">
+<h2>Radar de oportunidades</h2>
 
 <table>
-
 <tr>
 <th>Empresa</th>
-<th>Encaje</th>
-<th>Accionabilidad</th>
-<th>Siguiente acción</th>
-</tr>
-
-<tr>
-<td>JTI</td>
-<td>10/10</td>
-<td>9/10</td>
-<td>Esperar respuesta de Fátima y buscar Head Enterprise Platforms</td>
-</tr>
-
-<tr>
-<td>BBVA</td>
-<td>9/10</td>
-<td>8/10</td>
-<td>Contactar Jaime Martín Sánchez</td>
-</tr>
-
-<tr>
-<td>IQVIA</td>
-<td>8/10</td>
-<td>7/10</td>
-<td>Contactar Javier Barrios</td>
-</tr>
-
-<tr>
-<td>Iberdrola</td>
-<td>9/10</td>
-<td>6/10</td>
-<td>Contactar Borja Sánchez</td>
+<th>Score</th>
+<th>Estado</th>
+<th>Próxima acción</th>
 </tr>
 
 <tr>
 <td>Roche</td>
-<td>10/10</td>
-<td>3/10</td>
-<td>Esperar puerta visible</td>
+<td class="score green">91</td>
+<td><span class="badge green">ACTUAR YA</span></td>
+<td>Aplicar + contactar con Sara Gómez</td>
+</tr>
+
+<tr>
+<td>JTI</td>
+<td class="score green">88</td>
+<td><span class="badge green">ACTUAR</span></td>
+<td>Esperar respuesta Fátima → Almudena</td>
+</tr>
+
+<tr>
+<td>Endesa</td>
+<td class="score yellow">82</td>
+<td><span class="badge yellow">PREPARAR</span></td>
+<td>Reconstruir ICT Iberia</td>
+</tr>
+
+<tr>
+<td>Microsoft</td>
+<td class="score yellow">80</td>
+<td><span class="badge yellow">PREPARAR</span></td>
+<td>Buscar Head Customer Success</td>
+</tr>
+
+<tr>
+<td>Iberdrola</td>
+<td class="score yellow">76</td>
+<td><span class="badge yellow">PREPARAR</span></td>
+<td>Corporate ICT</td>
+</tr>
+
+<tr>
+<td>IQVIA</td>
+<td class="score yellow">74</td>
+<td><span class="badge yellow">PREPARAR</span></td>
+<td>Digital Delivery</td>
+</tr>
+
+<tr>
+<td>BBVA</td>
+<td class="score yellow">72</td>
+<td><span class="badge yellow">PREPARAR</span></td>
+<td>Corporate Functions Engineering</td>
+</tr>
+
+<tr>
+<td>Google</td>
+<td class="score yellow">70</td>
+<td><span class="badge yellow">PREPARAR</span></td>
+<td>Customer Engineering</td>
 </tr>
 
 </table>
-
 </div>
 
-</section>
+<div class="card" id="roche">
 
-<section id="jti">
+<h2>🥇 Roche (91)</h2>
 
-<div class="card">
+<p><strong>La mejor oportunidad encontrada hasta ahora.</strong></p>
 
-<h2>JTI Iberia (Madrid)</h2>
-
-<p><strong>Encaje:</strong> 10/10 · <strong>Accionabilidad:</strong> 9/10</p>
-
-<p>Madrid es el mayor hub tecnológico de JTI (+200 ingenieros).</p>
-
-<h3>Personas verificadas</h3>
-
-<table>
-
-<tr>
-<th>Persona</th>
-<th>Cargo</th>
-<th>Estado</th>
-</tr>
-
-<tr>
-<td>Fátima Ramírez</td>
-<td>D&IT Director Iberia</td>
-<td class="wait">Invitación enviada · Sin respuesta</td>
-</tr>
-
-<tr>
-<td>Claudio Ferreira</td>
-<td>Director General Iberia</td>
-<td class="todo">Pendiente</td>
-</tr>
-
-</table>
-
-<h3>Acciones</h3>
+<h3>Señales</h3>
 
 <ul>
-
-<li class="done">Invitación enviada a Fátima.</li>
-<li class="todo">Esperar 3-4 semanas antes de cualquier movimiento.</li>
-<li class="todo">Identificar Head Enterprise Platforms.</li>
-<li class="todo">Identificar Head Business Technology.</li>
-<li class="todo">Identificar Head IT Operations.</li>
-
+<li>RDT Madrid supera 600 profesionales.</li>
+<li>Varias posiciones Team Lead abiertas simultáneamente.</li>
+<li>Reorganización Digital Operations & Reliability.</li>
+<li>Fuerte apuesta por CMDB, Service Mapping y AI Operations.</li>
 </ul>
 
-</div>
+<h3>Vacante objetivo</h3>
 
-</section>
-
-<section id="bbva">
-
-<div class="card">
-
-<h2>BBVA Technology</h2>
-
-<p><strong>Encaje:</strong> 9/10 · <strong>Accionabilidad:</strong> 8/10</p>
-
-<p>Engineering sigue creciendo tras reforzar capacidad interna.</p>
-
-<h3>Personas verificadas</h3>
-
-<table>
-
-<tr>
-<th>Persona</th>
-<th>Cargo</th>
-<th>Estado</th>
-</tr>
-
-<tr>
-<td>Ricardo Forcano</td>
-<td>Global Head of Engineering & Organization</td>
-<td class="todo">Pendiente</td>
-</tr>
-
-<tr>
-<td>Jaime Martín Sánchez</td>
-<td>Head of Engineering (CIB)</td>
-<td class="todo">Prioridad alta</td>
-</tr>
-
-<tr>
-<td>Javier Rodríguez Soler</td>
-<td>Global Head CIB</td>
-<td class="todo">Opcional</td>
-</tr>
-
-</table>
-
-<h3>Acciones</h3>
+<p><strong>Team Lead Engineering Operational Enablement</strong></p>
 
 <ul>
-
-<li class="todo">Conectar con Jaime.</li>
-<li class="todo">Conectar con Ricardo.</li>
-<li class="todo">Localizar responsables de Engineering Platforms Madrid.</li>
-
-</ul>
-
-</div>
-
-</section>
-
-<section id="iberdrola">
-
-<div class="card">
-
-<h2>Iberdrola</h2>
-
-<p><strong>Encaje:</strong> 9/10 · <strong>Accionabilidad:</strong> 6/10</p>
-
-<h3>Personas verificadas</h3>
-
-<table>
-
-<tr>
-<th>Persona</th>
-<th>Cargo</th>
-<th>Estado</th>
-</tr>
-
-<tr>
-<td>Borja Sánchez</td>
-<td>Global CIO</td>
-<td class="todo">Pendiente</td>
-</tr>
-
-<tr>
-<td>Nuria Rodríguez</td>
-<td>Digital Transformation</td>
-<td class="todo">Pendiente</td>
-</tr>
-
-<tr>
-<td>Mario Ruiz-Tagle</td>
-<td>CEO Iberdrola España</td>
-<td>Referencia</td>
-</tr>
-
-</table>
-
-<h3>Acciones</h3>
-
-<ul>
-
-<li class="todo">Conectar con Borja.</li>
-<li class="todo">Conectar con Nuria.</li>
-<li class="todo">Identificar Director Corporate ICT Madrid.</li>
-
-</ul>
-
-</div>
-
-</section>
-
-<section id="iqvia">
-
-<div class="card">
-
-<h2>IQVIA España</h2>
-
-<p><strong>Encaje:</strong> 8/10 · <strong>Accionabilidad:</strong> 7/10</p>
-
-<h3>Personas verificadas</h3>
-
-<table>
-
-<tr>
-<th>Persona</th>
-<th>Cargo</th>
-<th>Estado</th>
-</tr>
-
-<tr>
-<td>Javier Barrios</td>
-<td>Technology Director Spain</td>
-<td class="todo">Prioridad alta</td>
-</tr>
-
-<tr>
-<td>Adolfo Hernández</td>
-<td>Country Manager Spain</td>
-<td class="todo">Pendiente</td>
-</tr>
-
-</table>
-
-<h3>Acciones</h3>
-
-<ul>
-
-<li class="todo">Conectar con Javier.</li>
-<li class="todo">Identificar Head Digital Delivery Madrid.</li>
-
-</ul>
-
-</div>
-
-</section>
-
-<section id="roche">
-
-<div class="card">
-
-<h2>Roche</h2>
-
-<p><strong>Encaje:</strong> 10/10 · <strong>Accionabilidad:</strong> 3/10</p>
-
-<h3>Estado</h3>
-
-<p>No hemos identificado aún un Head/Director público del segundo nivel en Madrid.</p>
-
-<h3>Acción</h3>
-
-<ul>
-
-<li class="todo">Mantener en radar.</li>
-
-</ul>
-
-</div>
-
-</section>
-
-<div class="card">
-
-<h2>Empresas descartadas</h2>
-
-<ul>
-
-<li>Airbus</li>
-<li>Julius Baer</li>
-<li>Bayer</li>
+<li>CMDB Governance</li>
 <li>ServiceNow</li>
-
+<li>Service Mapping</li>
+<li>ITSM</li>
+<li>Operational Data Quality</li>
+<li>Trabajo con Product Managers</li>
 </ul>
+
+<h3>Contacto objetivo</h3>
+
+<table>
+<tr><th>Persona</th><th>Cargo</th></tr>
+<tr><td>Sara Gómez</td><td>Directora Roche Digital Technology Madrid</td></tr>
+</table>
+
+<div class="action">
+
+<strong>Acción actual</strong>
+
+<ol>
+<li>Aplicar a la vacante.</li>
+<li>30-60 minutos después enviar invitación a Sara.</li>
+<li>Si acepta, enviar mensaje preparado.</li>
+</ol>
+
+</div>
+
+</div>
+
+<div class="card" id="jti">
+
+<h2>JTI (88)</h2>
+
+<h3>Señales</h3>
+
+<ul>
+<li>Hub tecnológico creciendo.</li>
+<li>Nuevo liderazgo D&IT.</li>
+<li>Programas IA y plataformas.</li>
+</ul>
+
+<h3>Secuencia cerrada</h3>
+
+<table>
+<tr><th>Orden</th><th>Persona</th><th>Estado</th></tr>
+<tr><td>1</td><td>Fátima Ramírez</td><td>Invitación pendiente</td></tr>
+<tr><td>2</td><td>Almudena Pérez Gómez</td><td>Enviar si pasan 10-14 días</td></tr>
+<tr><td>3</td><td>Daniel González Campos</td><td>Solo si fallan las dos anteriores</td></tr>
+</table>
+
+<div class="action">
+No cambiar esta secuencia.
+</div>
+
+</div>
+
+<div class="card" id="endesa">
+
+<h2>Endesa (82)</h2>
+
+<h3>Área objetivo</h3>
+
+<p><strong>ICT Iberia / Digital Solutions</strong></p>
+
+<ul>
+<li>Plataformas corporativas.</li>
+<li>ITSM.</li>
+<li>Infraestructura.</li>
+<li>Gobierno IT.</li>
+</ul>
+
+<div class="action">
+Pendiente identificar Director ICT Iberia.
+</div>
+
+</div>
+
+<div class="card" id="microsoft">
+
+<h2>Microsoft (80)</h2>
+
+<h3>Tu encaje</h3>
+
+<ul>
+<li>Customer Success Leadership</li>
+<li>Enterprise Transformation</li>
+<li>Platform Governance</li>
+</ul>
+
+<p>No perseguir Azure Engineering.</p>
+
+<div class="action">
+Objetivo siguiente: localizar Head Customer Success Enterprise Madrid.
+</div>
+
+</div>
+
+<div class="card" id="bbva">
+
+<h2>BBVA (72)</h2>
+
+<h3>Qué buscar</h3>
+
+<p><strong>Corporate Functions Engineering</strong></p>
+
+<p>Evitar managers intermedios.</p>
+
+<div class="action">
+Pendiente localizar Head real del área.
+</div>
+
+</div>
+
+<div class="card" id="iberdrola">
+
+<h2>Iberdrola (76)</h2>
+
+<p>Corporate ICT sigue siendo interesante por tu experiencia en Repsol.</p>
+
+<div class="action">
+Pendiente Director Corporate ICT Madrid.
+</div>
+
+</div>
+
+<div class="card" id="iqvia">
+
+<h2>IQVIA (74)</h2>
+
+<p>El área interesante es Digital Delivery.</p>
+
+<div class="action">
+Pendiente Head Digital Delivery Madrid.
+</div>
+
+</div>
+
+<div class="card" id="google">
+
+<h2>Google (70)</h2>
+
+<h3>Tu encaje</h3>
+
+<ul>
+<li>Customer Engineering</li>
+<li>Delivery Leadership</li>
+</ul>
+
+<p>Menor prioridad que Microsoft.</p>
 
 </div>
 
 <div class="card">
 
-<h2>Empresas condicionadas</h2>
+<h2>Próximas acciones</h2>
 
-<ul>
+<table>
 
-<li>Amadeus (cuidado por relaciones con Repsol).</li>
-<li>Microsoft (interesa, sin puerta ahora).</li>
-<li>Google.</li>
-<li>OpenAI.</li>
-<li>Anthropic.</li>
-<li>Revolut.</li>
+<tr><th>Estado</th><th>Acción</th></tr>
 
-</ul>
+<tr><td>Hoy</td><td>Aplicar Roche</td></tr>
+
+<tr><td>Hoy</td><td>Invitación Sara Gómez</td></tr>
+
+<tr><td>Esperando</td><td>Fátima Ramírez</td></tr>
+
+<tr><td>Día 10-14</td><td>Almudena Pérez Gómez</td></tr>
+
+<tr><td>Siguiente Sprint</td><td>Head Customer Success Microsoft</td></tr>
+
+<tr><td>Siguiente Sprint</td><td>Director ICT Iberia Endesa</td></tr>
+
+</table>
 
 </div>
 
